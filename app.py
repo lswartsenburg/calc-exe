@@ -5,7 +5,7 @@ app = Flask(__name__)
 def is_int(s):
     try: 
         int(s)
-    except ValueError:
+    except:
         return False
     else:
         return True
